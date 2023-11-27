@@ -1,0 +1,1197 @@
+body{
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.head{
+    position: sticky !important;
+    top: 0;
+    z-index: 200;
+    border: 1px solid white;
+    height: 100px;
+    width: 137 0px;
+    background-color: whitesmoke;
+}
+
+.logo{
+    width: 90px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.speak{
+    position: relative;
+    font-size: 28px;
+    left: 670px;
+    top: 15px;
+    color: #224093;
+}
+
+.contact{
+    position: relative;
+    font-size: 28px;
+    left: 710px;
+    top: 15px;
+    color: #224093;
+}
+
+.venu{
+    position: relative;
+    font-size: 28px;
+    left: 750px;
+    top: 15px;
+    color: #224093;
+}
+
+.button{
+    position: relative;
+    left: 800px;
+    top: 10px;
+    background-color: #fdb915;
+    color: #224093;
+    padding: 12px;
+    border-color: #fdb915;
+    border-radius: 12%;
+}
+
+
+.sect1{
+    position: relative;
+    top: 0px;
+}
+
+.bigban{
+    position: relative;
+    width: 1250px;
+    height: 400px;
+    left: 40px;
+}
+
+.line{
+    position: relative;
+    top: 0px;
+    width: 300px;
+}
+
+.maid{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+h1{
+    color: #224093;
+}
+
+.roll{
+    border: 1px solid #00a877;
+    border-radius: 100%;
+}
+
+.supp{
+    position: relative;
+    left: 60px;
+    top: 140px;
+}
+
+.spon{
+    border: 1px solid #224093;
+    color: #224093;
+    padding: 15px 210px;
+    font-weight: 900;
+    position: relative;
+    left: 40px;
+}
+
+.buy{
+    border: 1px solid #fdb915;
+    color: #224093;
+    padding: 15px 240px;
+    background-color: #fdb915;
+    font-weight: 900;
+}
+
+
+.venue{
+    background-color: #5576cf;
+    text-align: center;
+    height: 270px;
+    width: 1125px;
+    position: relative;
+    top: 180px;
+    left: 95px;
+}
+
+.vend{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.ven{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+
+.about{
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+
+.abou{
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.welc{
+    color: #224093;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.bord{
+    border: 1px solid #fdb915 ;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+.ui{
+    font-size: 80px;
+    position: relative;
+    left: 40px;
+    top: 250px;
+    color: #224093;
+}
+
+.ibacon{
+    position: relative;
+    top: 220px;
+    left: 40px;
+}
+
+.view{
+    color: #224093;
+    position: relative;
+    top: 170px;
+    left: 1150px;
+    font-size: 12px;
+}
+
+.container{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 40px;
+    margin-top: 220px;
+}
+
+.firstcon{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* .lgflex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.viewbor{
+    border: 1px solid #fdb915;
+    width: 1240px;
+    position: relative;
+    left: 40px;
+    top: 190px;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+}
+
+.hon{
+    color: #224093;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.akin{
+    text-align: center;
+    line-height: 60px;
+    margin-top: -2px;
+}
+
+.aki{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 13px;
+}
+
+.ho{
+    color: #224093;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.uitick{
+    font-size: 80px;
+    position: relative;
+    left: 40px;
+    top: 250px;
+    color: #224093;
+}
+
+.tickbor{
+    border: 1px solid #fdb915;
+    width: 1100px;
+    position: relative;
+    left: 40px;
+    top: 200px;
+}
+
+.speakbor{
+    border: 1px solid #fdb915;
+    width: 1250px;
+    position: relative;
+    left: 40px;
+    top: 190px;
+}
+
+.aboubor{
+    border: 1px solid #fdb915;
+    width: 587px;
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+
+.tp{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 350px;
+}
+
+.timag{
+    width: 350px;
+    position: relative;
+    left: 800px;
+    top: -80px;
+}
+
+.tickprice{
+    position: relative;
+    color: #224093;
+    font-size: 35px;
+    font-weight: 700;
+    left: 250px;
+    top: -70px;
+}
+
+.elon{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.musk{
+    border: 1px solid none;
+    background-color: white;
+    width: 30%;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.muskjeff{
+    border: 1px solid none;
+    background-color: white;
+    width: 30%;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.musk:hover{
+    background-color: #008000;
+}
+
+.muskjeff:hover{
+    background-color: #224093;
+}
+
+.mus{
+    border: 1px solid none;
+    background-color: #fdb915;
+    width: 30%;
+    height: 550px;
+    border-radius: 5%;
+    position: relative;
+    top: -50px;
+}
+
+.mark{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.adjust{
+    margin-top: 80px;
+}
+
+.text{
+    font-size: 12px; 
+    font-weight: 700; 
+    color: black;
+}
+
+.tickt{
+    font-size: 25px; 
+    font-weight: 800; 
+    color: black;
+}
+
+.tbut{
+    background-color: #fdb915;
+    position: relative;
+    left: 180px;
+    padding: 10px;
+    border-radius: 15%;
+    border-color: #fdb915;
+}
+
+.tbuts{
+    background-color: #224093;
+    position: relative;
+    left: 180px;
+    padding: 10px;
+    border-radius: 15%;
+    border-color: #224093;
+    color: white;
+}
+
+h3{
+    color: #224093;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.gold{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    margin-left: 0px;
+    animation: gol 30s linear  infinite;
+}
+
+@keyframes gol{
+    0%{
+        transform: translate(1000px);
+    }
+
+    100%{
+        transform: translate(-1000px);
+    }
+}
+
+.goldi{
+    width: 150px;
+    height: 70px;
+    position: relative;   
+}
+
+.girl{
+    background-color: #132351;
+    height: 500px;
+    position: relative;
+    top: 150px;
+}
+
+.tgirl{
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.techp{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+}
+
+.tgirlp{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.bgirl{
+    position: relative;
+    height: 400px;
+    width: 450px;
+    top: -170px;
+    left:550px;
+}
+
+.laptop{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 500px;
+    top: -250px;
+}
+
+.watch{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 530px;
+    top: -430px;
+}
+
+.partner{
+    position: relative;
+    top: 250px;
+}
+
+.mpartner{
+    position: relative;
+    top: 400px;
+}
+
+.cpartner{
+    position: relative;
+    top: 550px;
+}
+
+.gsponsor{
+    position: relative;
+    top: 100px;
+}
+
+.end{
+    background-color: #132351;
+    height: 80px;
+    position: relative;
+    top: 600px;
+}
+
+.follow{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.images{
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.aend{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bend{
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cend{
+    position: relative;
+    left: 270px;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dend{
+    position: relative;
+    left: 290px;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.move{
+    position: relative;
+    left: 700px;
+}
+
+.twit{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.face{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+}
+
+.link{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+}
+
+@media screen and (max-width: 478px) {
+    body{
+        background-color: #f5f5f5;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .head{
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        border: 1px solid white;
+        height: 100px;
+        width: 478px;
+        background-color: whitesmoke;
+    }
+    
+    .logo{
+        width: 60px;
+        position: relative;
+        top: 0px;
+        left: 50px;
+        height: 100px;
+    }
+    
+    .speak{
+        position: relative;
+        font-size: 15px;
+        left: 130px;
+        top: -45px;
+        color: #224093;
+    }
+    
+    .contact{
+        position: relative;
+        font-size: 15px;
+        left: 140px;
+        top: -45px;
+        color: #224093;
+    }
+    
+    .venu{
+        position: relative;
+        font-size: 15px;
+        left: 150px;
+        top: -45px;
+        color: #224093;
+    }
+    
+    .button{
+        position: relative;
+        left: 160px;
+        top: -45px;
+        background-color: #fdb915;
+        color: #224093;
+        padding: 6px;
+        border-color: #fdb915;
+        border-radius: 12%;
+    }
+    
+
+    .sect1{
+        position: relative;
+        top: 0px;
+    }
+    
+    .bigban{
+        position: relative;
+        width: 460px;
+        top: -100px;
+        height: 400px;
+        left: 10px;
+    }
+    
+    .line1{
+        position: relative;
+        top: -65px;
+        width: 250px;
+        left: 150px;
+    }
+
+    .line2{
+        position: relative;
+        top: -1px;
+        width: 250px;
+        left:10px;
+    }
+
+    .maidh1{
+        font-size: 20px;
+    }
+
+    .sept{
+        font-size: 20px;
+        margin-left: 270px;
+        margin-top: -20px;
+    }
+    
+    .maid{
+        display: inline;
+        position: relative;
+        top: -110px;
+        left: 10px;
+    }
+    
+    h1{
+        color: #224093;
+    }
+    
+    .roll{
+        border: 1px solid #00a877;
+        border-radius: 100%;
+        width: 30px;
+        margin-left: -50px;
+    }
+    
+    .supp{
+        display: inline;
+        position: relative;
+        left: 60px;
+        top: -50px;
+
+    }
+    
+    .spon{
+        border: 1px solid #224093;
+        color: #224093;
+        padding: 15px 145px;
+        font-weight: 900;
+        position: relative;
+        left: -50px;
+        top: 70px;
+    }
+    
+    .buy{
+        border: 1px solid #fdb915;
+        color: #224093;
+        padding: 15px 175px;
+        background-color: #fdb915;
+        font-weight: 900;
+        position: relative;
+        left: -50px;
+    }
+    
+    .venue{
+        background-color: #5576cf;
+        text-align: center;
+        height: 250px;
+        width: 460px;
+        position: relative;
+        top: 100px;
+        left: 10px;
+        border-radius: 2%;
+    }
+    
+    .ven{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-top: 0px;
+    }
+
+    .vend{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-top: 60px;
+    }
+    
+    p{
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-top: -10px;
+    }
+    
+    .about{
+        display: inline;
+        position: relative;
+        top: 100px;
+    }
+    
+    .abou{
+        width: 450px;
+        position: relative;
+        top: 80px;
+        left: 10px;
+    }
+
+    .aboubor{
+        border: 1px solid #fdb915;
+        width: 450px;
+        position: relative;
+        left: 10px;
+        top: 80px;
+    }
+    
+    .welc{
+        color: #224093;
+        font-size: 17px;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+    .lady{
+        width: 456px;
+        position: relative;
+        left: 10px;
+    }
+    
+    .ui{
+        font-size: 15px;
+        position: relative;
+        left: 10px;
+        top: 150px;
+        color: #224093;
+    }
+
+    .speakbor{
+        border: 1px solid #fdb915;
+        width: 450px;
+        position: relative;
+        left: 10px;
+        top: 140px;
+    }
+    
+    .ibacon{
+        position: relative;
+        top: 150px;
+        left: 10px;
+        width: 456px;
+        height: 250px;
+    }
+    
+    .view{
+        color: #224093;
+        position: relative;
+        top: 140px;
+        left: 350px;
+        font-size: 9px;
+    }
+
+    .viewbor{
+        border: 1px solid #fdb915;
+        width: 450px;
+        position: relative;
+        left: 10px;
+        top: 135px;
+    }
+
+    .uidiv{
+        position: relative;
+        top: 60px;
+    }
+    
+    .container{
+        display: flex;
+        gap: 15px;
+        position: relative;
+        left: -20px;
+        top: -30px;
+    }
+
+    /* .smflex{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .item{
+        width: 200px;
+        height: 200px;
+    }
+
+    .firstcon{
+        display: flex;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    
+    .hon{
+        color: #224093;
+        font-weight: lighter;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+    .akin{
+        text-align: center;
+        font-size: 20px;
+        margin-top: -15px;
+    }
+    
+    .aki{
+        text-align: center;
+        line-height: 25px;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    
+    .ho{
+        color: #224093;
+        font-weight: lighter;
+        font-size: 16px;
+        text-align: center;
+        margin-top: -15px;
+    }
+    
+    .tickbor{
+        border: 1px solid #fdb915;
+        width: 300px;
+        position: relative;
+        left: 10px;
+        top: 180px;
+    }
+
+    .uitick{
+        font-size: 33px;
+        position: relative;
+        left: 10px;
+        top: 200px;
+        color: #224093;
+    }
+    
+    .tp{
+        color: black;
+        font-size: 17px;
+        font-weight: lighter;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 270px;
+        line-height: 30px;
+    }
+    
+    .timag{
+        width: 270px;
+        position: relative;
+        left: 30px;
+        top: 0px;
+    }
+    
+    .tickprice{
+        position: relative;
+        color: #224093;
+        font-size: 18px;
+        font-weight: 700;
+        left: 70px;
+        top: 100px;
+    }
+    
+    .elon{
+        display: inline;
+        gap: 20px;
+        position: relative;
+        left: 40px;
+        top: 100px;
+    }
+    
+    .musk{
+        border: 1px solid none;
+        background-color: #008000;
+        width: 70%;
+        height: 550px;
+        border-radius: 5%;
+        position: relative;
+        left: 35px;
+    }
+    
+    .mus{
+        border: 1px solid none;
+        background-color: #fdb915;
+        width: 70%;
+        height:700px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        left: 35px;
+    }
+
+    .muskjeff{
+        border: 1px solid none;
+        background-color: #008000;
+        width: 70%;
+        height: 600px;
+        border-radius: 5%;
+        position: relative;
+        left: 35px;
+        top: 70px;
+    }
+    
+    .mark{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .adjust{
+        margin-top: 50px;
+    }
+    
+    .tbut{
+        background-color: #fdb915;
+        color: white;
+        position: relative;
+        left: 130px;
+        padding: 10px;
+        border-radius: 15%;
+        border-color: #fdb915;
+    }
+    
+    .tbuts{
+        background-color: #224093;
+        position: relative;
+        left: 130px;
+        padding: 10px;
+        border-radius: 15%;
+        border-color: #224093;
+        color: white;
+    }
+    
+    h3{
+        color: #224093;
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    
+    .gold{
+        display: flex;
+        gap: 70px;
+        position: relative;
+        margin-left: 0px;
+        animation: gol 15s linear  infinite;
+    }
+    
+    @keyframes gol{
+        0%{
+            transform: translate(478px);
+        }
+    
+        100%{
+            transform: translate(-478px);
+        }
+    }
+    
+    .goldi{
+        width: 80px;
+        height: 40px;
+        position: relative;   
+    }
+    
+    .girl{
+        background-color: #132351;
+        height: 550px;
+        position: relative;
+        top: 150px;
+    }
+    
+    .tgirl{
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    
+    .techp{
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+        position: relative;
+        top: 20px;
+    }
+    
+    .tgirlp{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 60px;
+    }
+    
+    .bgirl{
+        position: relative;
+        height: 240px;
+        width: 250px;
+        top: 40px;
+        left:20px;
+    }
+    
+    .laptop{
+        position: relative;
+        width: 65px;
+        height: 65px;
+        left: 20px;
+        top: 0px;
+    }
+    
+    .watch{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        left: 30px;
+        top: -120px;
+    }
+    
+    .partner{
+        position: relative;
+        top: 50px;
+    }
+    
+    .mpartner{
+        position: relative;
+        top: -50px;
+    }
+    
+    .cpartner{
+        position: relative;
+        top: -130px;
+    }
+    
+    .gsponsor{
+        position: relative;
+        top: 100px;
+    }
+    
+    .end{
+        background-color: #132351;
+        height: 130px;
+        position: relative;
+        top: 0px;
+    }
+    
+    .follow{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 15px;
+        left: 180px;
+    }
+    
+    .images{
+        position: relative;
+        left: 170px;
+        top: 15px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .aend{
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .bend{
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .cend{
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .dend{
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .move{
+        position: relative;
+        left: 80px;
+        top: 65px;
+    }
+    
+    .twit{
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .face{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 20px;
+    }
+    
+    .link{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 40px;
+    }
+}
